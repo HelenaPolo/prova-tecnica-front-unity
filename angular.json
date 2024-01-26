@@ -25,9 +25,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/game1/TemplateData/style.css",
+              "src/assets/newGame/TemplateData/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/game1/Build/UnityLoader.js",
+              "src/assets/game1/TemplateData/UnityProgress.js",
+              "src/assets/newGame/Build/UnityLoader.js",
+              "src/assets/newGame/TemplateData/UnityProgress.js"
+            ]
           },
           "configurations": {
             "production": {

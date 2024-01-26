@@ -1,0 +1,19 @@
+@import './../../styles.css';
+
+*{
+    background-color: whitesmoke;
+}
+
+.container{
+    background-color: whitesmoke;
+    padding: 3rem;
+    margin-top: 5rem;
+    position: absolute;
+
+}
+#gameContainer{
+    position: relative;
+    align-items: center;
+
+}
+
