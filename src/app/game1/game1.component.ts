@@ -11,13 +11,18 @@ export class Game1Component implements OnInit {
 
   unityInstance: any;
 
+  counter = 0;
+
   ngOnInit(): void {
 
    try {
-      this.unityInstance = UnityLoader.instantiate("gameContainer", "./assets/game1/Build/Builds.json");
+      this.unityInstance = UnityLoader.instantiate("gameContainer", "./assets/ballGame/Build/ballGame.json");
     } catch (error) {
       console.error("Error al cargar el archivo JSON:", error);
     }
+
+    (window as any).counterChangeListener = (counter: number) => {
+      this.counter = counter;
+    }
   }
-  
 }

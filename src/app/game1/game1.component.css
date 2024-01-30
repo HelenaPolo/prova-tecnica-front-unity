@@ -3,7 +3,6 @@
 *{
     background-color: whitesmoke;
 }
-
 .container{
     background-color: whitesmoke;
     padding: 3rem;
@@ -15,5 +14,11 @@
     position: relative;
     align-items: center;
 
+}
+#score{
+    background-color: transparent;
+    margin: 1rem;
+    font-size: large;
+    font-weight: bold;
 }
 

@@ -26,14 +26,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/game1/TemplateData/style.css",
-              "src/assets/newGame/TemplateData/style.css"
+              "src/assets/ballGame/TemplateData/style.css",
+              "src/assets/squareGame/TemplateData/style.css"
             ],
             "scripts": [
-              "src/assets/game1/Build/UnityLoader.js",
-              "src/assets/game1/TemplateData/UnityProgress.js",
-              "src/assets/newGame/Build/UnityLoader.js",
-              "src/assets/newGame/TemplateData/UnityProgress.js"
+              "src/assets/ballGame/Build/UnityLoader.js",
+              "src/assets/ballGame/TemplateData/UnityProgress.js",
+              "src/assets/squareGame/Build/UnityLoader.js",
+              "src/assets/squareGame/TemplateData/UnityProgress.js"
             ]
           },
           "configurations": {
